@@ -1,0 +1,66 @@
+
+.MuiTabs-root button:hover{
+    background-color: #d5aa6d;
+    color: black!important;
+    transition: all .6s ease;
+}
+.MuiTabs-root button:active{
+    background-color: #d5aa6d;
+    color: black;
+}
+.MuiBox-root.css-18mmnjl {
+    margin-top: 5rem;
+}
+.Mui-selected {
+    color: #d5aa6d!important;
+}
+.css-10d9dml-MuiTabs-indicator {
+    background-color: #d5aa6d!important;
+}
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #d5aa6d!important;
+
+}
+.MuiTabs-root {
+    margin-left: 3vw;
+}
+.profile {
+    gap: 2rem
+}
+.myProf {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0
+}
+.myProf h2 , input::placeholder {
+    font-size: 1.2rem;
+    color: black;
+}
+.myDash {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media (max-width: 850px){
+    .myProf {
+        padding-bottom: 2rem;
+    }
+    .profile-content h1,h4,p
+    {
+        text-align: center;
+    }
+    .profile-content h1 {
+        font-size: 6vw;
+    }
+    
+    .update-profile h2 {
+        text-align: left;
+    }
+    
+}
+@media (max-width: 960px){ 
+    .navbar {
+        padding: 1rem 1rem
+    }
+}

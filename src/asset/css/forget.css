@@ -1,0 +1,48 @@
+.forget-page {
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.forget-content h1 {
+    font-size: 5rem;
+}
+.forget-content p {
+    margin: 5% 0;
+    font-size: 1.5rem;
+}
+.forget-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forget-post input {
+ margin-top: 6rem;
+ border: 0;
+ border-bottom: 1px solid #d5aa6d;
+ outline: none;
+ padding: 1rem 10rem;
+ font-size: 2rem;
+ text-align: center;
+}
+.forget-post button {
+    margin-top: 2rem;
+    padding: 1rem 15rem;
+    border-radius:30px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    background-color: #fff;
+    border: 1px solid #d5aa6d;
+}
+.forget-post button:hover {
+    background-color: #d5aa6d;
+    color: #fff;
+}
+.forget-post a {
+}
+.forget-post .pp {
+    text-decoration: none;
+    margin-top: 1.3rem;
+    font-size: 1.5rem;
+}

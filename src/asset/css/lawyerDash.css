@@ -1,0 +1,40 @@
+.myCol3 {
+    margin-left: 3rem;
+}
+.myCol3 h1 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 4px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    font-family: 'Raleway', sans-serif;
+    width: 28rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.myCol3 .dashbb {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+}
+.dashboard-main {
+    margin-top: 15rem;
+    padding: 0 2rem;
+}
+.myDisplay {
+    box-shadow: none;
+}
+.myCol3 .active {
+    background-color: #d5aa6d;
+    color: black;
+}
+.myProf {
+    padding-bottom: 15rem;
+}
+.row tr {
+    font-size: 1.6rem;
+}
+.table .td {
+    line-height: 4rem;
+
+}

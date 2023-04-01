@@ -1,0 +1,101 @@
+.myCol3 {
+    margin-left: 3rem;
+}
+.myCol3 h1 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: 4px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    font-family: 'Raleway', sans-serif;
+    width: 28rem;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.myCol3 .dashbb {
+    color: #aaa;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600!important;
+}
+.dashboard-main {
+    margin-top: 15rem;
+    padding: 0 2rem;
+}
+.myDisplay {
+    box-shadow: none;
+}
+.myCol3 .active {
+    background-color: #d5aa6d;
+    color: black;
+}
+.myProf {
+    padding-bottom: 10rem;
+}
+.myDisplay .phone, .earth{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+}
+.update-profile {
+    flex-wrap: wrap;
+}
+.update-profile label {
+    font-size: 1rem;
+}
+@media(max-width: 720px){
+    .myDash {
+        flex-direction: column;
+    }
+    .profile-content {
+        margin-left: 0;
+    }
+    .profile-content h1,h4,p
+    {
+        text-align: center;
+    }
+    .profile-content h1 {
+        font-size: 6vw;
+    }
+    .MuiTabs-root {
+        /* display: none!important;     */
+    }
+    .css-3m2if2 {
+        justify-content: center!important;
+    }
+    .profile table td {
+        font-size: 1.2rem;
+    }
+    .profile table th {
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 500px){
+    .profile {
+        width: 35rem;
+    }
+    .profile-content h1 {
+        font-size: 8vw;
+    }
+    .profile-content h4 {
+        font-size: 5vw;
+    }
+    .profile-content p {
+        font-size: 3vw;
+    }
+    .navbar {
+        padding: 0
+    }
+    .profile .table {
+        margin-left: -8px;
+    }
+    .profile table td {
+        font-size: 1.1rem;
+    }
+    .profile table th {
+        padding: 4px;
+    }
+    .update-profile input {
+        padding-right: 30vw;
+    }
+}

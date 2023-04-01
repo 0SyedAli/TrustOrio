@@ -1,0 +1,23 @@
+/* form {
+    display: flex;
+    flex-direction: column;
+    margin: 10vw 20vw
+} */
+
+.contact-us {
+    margin-top: 10%;
+    padding: 50px;
+}
+.contact-bg {
+    margin-top: 2%;
+
+}
+.myConc {
+    margin-top: 10%;
+}
+.sumbit-reg a{
+    margin-left: 2%;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: blue;
+}

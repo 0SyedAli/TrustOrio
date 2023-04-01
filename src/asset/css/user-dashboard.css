@@ -1,0 +1,46 @@
+.dashboard-panel {
+    width: 100%;
+    background-color: lightblue;
+    height: 70vh;
+}
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    border-right: 1px solid grey;
+}
+.menu-bar ul {
+    margin: 0;
+}
+.menu-bar ul li {
+    list-style-type: none;
+    margin-right: 3rem;
+}
+.menu-bar a {
+    border: 2px solid #d5aa6d;
+    border-radius: 0;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0;
+    padding: 17px 26px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #d5aa6d;
+    -webkit-transition: all 300ms linear 0ms;
+    -moz-transition: all 300ms linear 0ms;
+    -ms-transition: all 300ms linear 0ms;
+    transition: all 300ms linear 0ms;
+    width: 100%;
+    outline: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+.menu-bar ul li:hover {
+    border: 1px solid darkgray;
+
+}

@@ -1,0 +1,120 @@
+.profile {
+    display: flex;
+    gap: 4rem;
+    margin-top: -2rem;
+    padding: 3rem;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 15rem;
+    width: 65vw;
+}
+
+.profile-User {
+    font-size: 8rem;
+    margin-left: 3rem;
+}
+
+.profile-content {
+    color: black;
+    margin-left: 6rem;
+}
+
+.profile-content h1{
+    font-size: 4rem;
+    font-weight: 600!important;
+}
+.profile-content h4 {
+    font-size: 2.2rem;
+}
+.profile-content p{
+    font-size: 1.4rem;
+}
+.profile-content .phone,.earth {
+    font-size: 1.5rem;
+    color: #d5aa6d;
+}
+.profile .profile-img img {
+    width: 11rem;
+}
+.profile-content .phone {
+    margin-bottom: 1.7rem;
+}
+.myNavPills {
+    margin-top: 1rem;
+}
+.nav-pills-custom .nav-link {
+    color: #aaa;
+}
+.profile .profile-img img {
+    width: 10rem;
+}
+.nav-pills .nav-link {
+    width: 18rem;
+}
+.nav-pills .nav-link .activeP{
+    background-color: #0096d6;
+}
+#v-pills-home-tab{
+    margin-bottom: 2rem;
+}
+.col-md-3 {
+    padding-left: 45px;
+}
+.nav-link .bg-dash {
+    background-color: black;
+}
+.dashboard-1 {
+    display: flex;
+}
+.dashboard-1 .dashboard-menu{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 3rem;
+    margin-right: 2rem;
+}
+.dashboard-1 .dashboard-menu button{
+    margin-bottom: 2rem;
+    border: 0;
+    background-color: #fff;
+}
+.dashboard-1 .dashboard-menu a{
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+.dashboard-display {
+    border-left: 1px solid red;
+    padding-left: 2rem;
+}
+.dashboard-main {
+    padding: 6vw 0;    
+}
+.table thead th {
+    color: #d5aa6d;
+}
+/* h1 {  
+    text-decoration: underline overline dotted purple;  
+  }  
+  h3 {  
+    text-decoration: underline wavy cyan 10px;}   */
+.table thead th:hover {
+    text-decoration: underline black 1.5px;
+
+}
+.table {
+    font-size: 1.5rem;
+}
+ .table th {
+    color: black;
+    font-family: monospace;
+    font-weight: bold;
+}
+.table td {
+    color: black;
+    font-family: sans-serif;
+    padding: 10px
+}
+.shadow1 {
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}

@@ -1,0 +1,7 @@
+.myProf {
+    display: flex;
+    flex-direction: column;
+}
+.update-profile h2 {
+    font-size: 1.5rem;
+}

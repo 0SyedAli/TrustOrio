@@ -6,9 +6,7 @@ import Lawyer from '../pages/Lawyer';
 import Contact from '../pages/Contact';
 import Profile from '../pages/Profile';
 import Heads from '../component/Heads';
-// import Sidebar from '../pages/Sidebar';
-// import Dash from '../pages/Dash'
-// import DashMobile from '../pages/DashMobile'
+
 
 const RoutesNav = () => {
   return (

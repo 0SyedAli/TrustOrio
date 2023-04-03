@@ -1,11 +1,10 @@
 import React, {useEffect} from 'react'
 import Slider from '../component/Slider'
-import ClientArea from '../component/ClientArea'
 import Count from '../component/Count'
 import Footer from '../component/Footer'
-import Header from '../component/Header'
 import Practice from '../component/Practice'
 import Welcome from '../component/Welcome'
+import CardsSection from '../component/CardsSection'
 
 const Home = () => {
   useEffect(() => {
@@ -19,6 +18,7 @@ const Home = () => {
         <Count />
         <Welcome />
         <Practice />
+        <CardsSection />
         {/* <ClientArea /> */}
         <Footer />
     </>

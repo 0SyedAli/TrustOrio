@@ -23,18 +23,19 @@ COMMON STYLES
 body {
     font-family: 'Raleway', sans-serif;
 }
-/*.container{
-	-webkit-transition: all.2s;
-	-o-transition: all.2s;
-	transition: all.2s;
-}*/
+.container{
+	padding-right:5rem!important;
+	padding-left:5rem!important
+}
 p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	color: #9b9b9b;
 	line-height: 24px;
 }
-
+.welcome-assets-padding40 {
+    padding-bottom: 0px!important;
+}
 .float-left{
 	float: left;
 }

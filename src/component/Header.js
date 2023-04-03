@@ -1,13 +1,91 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-// import '../asset/css/'
-import '../asset/css/main.css'
 import logo from '../asset/images/gallery/horse.png'
-
-
+import { FaShoppingCart , FaSearch} from 'react-icons/fa';
+import '../asset/css/newNav.css'
 const Header = () => {
     return (
         <>
+
+{/* <nav className="navbar navbar-expand-lg bg-body-tertiary myNavbar">
+        <div className="container-fluid">
+          <a className="navbar-brand myNavB" href="/">
+            <img src={logo} alt="" />
+            <h1>Trust</h1>
+            <p>
+              We Provide legal solutions <br />
+              for you !
+            </p>
+          </a>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse myMenu" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                  HOME
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                ABOUT
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                PRACTICE
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                ATTORNEYS
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                BLOG
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                FEATURES
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                SHOP
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                CONTACT
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                < FaSearch />
+                </a>
+              </li>
+              <li className="nav-item menu-a">
+                <a className="nav-link active" aria-current="page" href="/">
+                < FaShoppingCart />
+                </a>
+              </li>
+              
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav> */}
             {/* <header className="header-area navbar-fixed-top">
                 <div className="container custom-header">
                     <div className="row">

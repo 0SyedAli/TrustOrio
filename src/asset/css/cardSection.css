@@ -1,0 +1,180 @@
+.section-title {
+    margin-bottom: 5rem;
+}
+
+.section-title p {
+    color: blue;
+}
+
+.section-title .line-p {
+    width: 1.5rem;
+    height: 2.5px;
+    background-color: #1b70f0;
+}
+
+.section-title .p-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.section-title .p-line p {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.section-title h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.causes__img img {
+    width: 100%;
+}
+
+.causes-count {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-card {
+    height: 1px;
+    width: 100%;
+    background-color: darkgray;
+    margin: 1rem 0;
+}
+
+.causes-meta {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.causes__caption h4 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+}
+
+.progress {
+    margin: 1rem 0;
+    height: 7px;
+
+}
+
+.progress-bar {
+    height: 7px;
+}
+
+.movie-title {
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.causes__caption {
+    padding: 2rem 0;
+}
+
+.count-number h2 {
+    font-size: 1.5rem;
+}
+
+.count-number span {
+    font-size: 1.2;
+}
+
+.btn-product {
+    padding: 1rem 3rem;
+    background-color: transparent;
+    border-radius: 0;
+    color: #575656;
+    font-weight: bolder;
+    font-family: sans-serif;
+    border: 2px solid rgb(210, 156, 210);
+}
+
+.Popular .causes-meta {
+    font-size: .7rem;
+    font-weight: 600;
+}
+
+.abCard {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.abCard1 {
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.abCard1 img {
+    border-radius: 50%;
+    height: 20rem;
+    width: 20rem;
+    margin: 2rem;
+}
+
+.btn-card {
+    background-color: #fff !important;
+    color: #575656;
+    padding: 1rem 1rem;
+    border-radius: 0;
+    font-size: 2rem;
+    font-weight: 550;
+    border: none;
+    box-shadow: 0 4px 10px darkgray;
+}
+.causes__caption h4 {
+    text-align: center;
+}
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rt-Div1-bottom {
+    display: flex;
+
+}
+.rating li {
+    list-style-type: none;
+}
+.rt-Div2 .prog {
+    display: flex;
+    height: 2.5rem;
+    gap: 10px;
+}
+.rt-Div2 .progress {
+    margin: 1rem 0;
+    height: 4px;
+    width: 5rem;
+}
+.rt-Div2 .progress-bar {
+    background-color: #d5aa6d;
+
+}
+.rt-Div1-top span {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.rt-Div1-top h1 {
+    margin-bottom: 0;
+}
+@media (max-width:576px) {
+    .btn-product {
+        width: 10rem;
+        height: 3.5rem;
+        padding: 0;
+        font-size: .9rem;
+    }
+}

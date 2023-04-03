@@ -20,7 +20,7 @@ const Welcome = () => {
         </div>
     </div>
 
-    <div className="wellcome-asset">
+    <div className="wellcome-asset welcome-assets-padding40">
         <div className="container">
             <div className="row">
                 <div className="col-md-4 col-sm-4">
@@ -49,15 +49,15 @@ const Welcome = () => {
                     </div>
                 </div>
             </div>
-            <div className="row">
+            {/* <div className="row">
                 <div className="asset-button text-center">
                     <button type="button" className="btn btn-default">Find Out More About Trust</button>
                 </div>
-            </div>
+            </div> */}
         </div>
     </div>
 
-    <div className="help-area">
+    {/* <div className="help-area">
         <div className="left-half"></div>
         <div className="container">
             <div className="row">
@@ -113,7 +113,7 @@ const Welcome = () => {
                 </div>
             </div>
         </div>
-    </div>
+    </div> */}
 </section>
 </div>
   )

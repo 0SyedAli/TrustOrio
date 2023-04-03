@@ -5,7 +5,7 @@ const Practice = () => {
         <div>
             <section className="practice-area">
                 <div className="welcome-title-area">
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row">
                             <div className="col-xs-12 col-sm-6">
                                 <div className="Title-area">
@@ -23,7 +23,7 @@ const Practice = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="container">
                     <div className="row">
